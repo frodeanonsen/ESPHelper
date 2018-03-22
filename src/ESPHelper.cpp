@@ -1048,3 +1048,6 @@ char* ESPHelper::getHostname(){
 	return _hostname;
 }
 
+const char* ESPHelper::getClientName(){
+	return _clientName.c_str();
+}

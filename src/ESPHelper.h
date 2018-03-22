@@ -351,6 +351,7 @@ public:
 	void OTA_setHostname(const char* hostname);
 	void OTA_setHostnameWithVersion(const char* hostname);
 	char* getHostname();
+	const char* getClientName();
 
 private:
 
